@@ -9,7 +9,7 @@ const endpoints = {
   [CHAIN.EON]: "https://eon-graph.horizenlabs.io/subgraphs/name/Ascent/ascent-subgraph",
 };
 
-const graphs = getChainVolume({
+const graphs = ({
   graphUrls: endpoints,
   totalVolume: {
     factory: DEFAULT_TOTAL_VOLUME_FACTORY,
